@@ -1,0 +1,163 @@
+﻿Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\USER\AppData\Roaming
+CommonProgramFiles = C:\Program Files\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = GWTN156-5
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\USER
+LOCALAPPDATA = C:\Users\USER\AppData\Local
+LOGONSERVER = \\GWTN156-5
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 8
+OneDrive = C:\Users\USER\OneDrive
+OneDriveConsumer = C:\Users\USER\OneDrive
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Polyspace\R2021a\runtime\win64;C:\Program Files\Polyspace\R2021a\bin;C:\Program Files\Polyspace\R2021a\polyspace\bin;C:\Program Files\Git\cmd;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Common Files\Propellerhead Software\ReWire\;C:\Program Files\Common Files\Propellerhead Software\ReWire\;C;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Graphviz\bin;C:\Program Files\Graphviz\bin;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\USER\AppData\Local\Microsoft\VisualStudio\17.0_a5de3c8c\devenv.exe.config
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+PROCESSOR_LEVEL = 23
+PROCESSOR_REVISION = 1801
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+ServiceHubLogSessionKey = C40E5DA8
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\USER\AppData\Local\Temp
+ThreadedWaitDialogDpiContext = -4
+TMP = C:\Users\USER\AppData\Local\Temp
+USERDOMAIN = GWTN156-5
+USERDOMAIN_ROAMINGPROFILE = GWTN156-5
+USERNAME = USER
+USERPROFILE = C:\Users\USER
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+VISSIM2022_EXAMPLES = C:\Users\Public\Documents\PTV Vision\PTV Vissim 2022
+VisualStudioDir = C:\Users\USER\Documents\Visual Studio 2022
+VisualStudioEdition = Microsoft Visual Studio Community 2022
+VisualStudioVersion = 17.0
+VSAPPIDDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Community
+windir = C:\WINDOWS
+
+main.obj : error LNK2005: "public: void __thiscall Burbuja::encerar(int *,int)" (?encerar@Burbuja@@QAEXPAHH@Z) already defined in Arreglo.obj
+main.obj : error LNK2005: "public: void __thiscall Burbuja::imprimir(int *,int)" (?imprimir@Burbuja@@QAEXPAHH@Z) already defined in Arreglo.obj
+main.obj : error LNK2005: "public: void __thiscall Burbuja::ingresar(int *,int)" (?ingresar@Burbuja@@QAEXPAHH@Z) already defined in Arreglo.obj
+main.obj : error LNK2005: "public: void __thiscall Burbuja::ordenar(int *,int)" (?ordenar@Burbuja@@QAEXPAHH@Z) already defined in Arreglo.obj
+C:\Users\USER\Desktop\OrdenamientoBurbuja\Debug\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
+
+Project Performance Summary:
+     1358 ms  C:\Users\USER\Desktop\OrdenamientoBurbuja\Project1.vcxproj   1 calls
+               1358 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  ComputeCLGeneratedLinkInputs               1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  FindReferenceAssembliesForReferences       1 calls
+        1 ms  CopyFileToFolders                          1 calls
+        1 ms  ComputeRCGeneratedLinkInputs               1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  BuildCompileTraverse                       1 calls
+        1 ms  WarnCompileDuplicatedFilename              1 calls
+        1 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        1 ms  _CheckWindowsSDKInstalled                  1 calls
+        1 ms  GetReferencedVCProjectsInfo                1 calls
+        1 ms  ComputeManifestInputsTargets               1 calls
+        1 ms  ComputeLegacyManifestEmbedding             1 calls
+        1 ms  ResolveSDKReferences                       1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        2 ms  _PrepareForBuild                           1 calls
+        2 ms  MakeDirsForCl                              1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        2 ms  GetReferenceAssemblyPaths                  1 calls
+        2 ms  AssignProjectConfiguration                 1 calls
+        3 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        3 ms  AssignTargetPaths                          1 calls
+        4 ms  FixupCLCompileOptions                      1 calls
+       10 ms  InitializeBuildStatus                      1 calls
+       17 ms  PrepareForBuild                            1 calls
+       19 ms  SetTelemetryEnvironmentVariables           1 calls
+       26 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       26 ms  CustomBuild                                1 calls
+       99 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+      307 ms  ClCompile                                  1 calls
+      802 ms  Link                                       1 calls
+
+Task Performance Summary:
+        1 ms  AssignCulture                              1 calls
+        1 ms  MSBuild                                    1 calls
+        2 ms  WriteLinesToFile                           1 calls
+        2 ms  Touch                                      1 calls
+        2 ms  AssignTargetPath                           4 calls
+        2 ms  AssignProjectConfiguration                 1 calls
+        3 ms  MakeDir                                    7 calls
+        3 ms  ReadLinesFromFile                          1 calls
+        3 ms  Message                                    2 calls
+        4 ms  CheckVCToolsetVersion                      1 calls
+        6 ms  SetEnv                                     9 calls
+       25 ms  GetOutOfDateItems                          3 calls
+      303 ms  CL                                         1 calls
+      801 ms  Link                                       1 calls
